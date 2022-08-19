@@ -46,7 +46,6 @@ if (n == 5)
     {
         ArrayForPalindrom[i]=(number/Exponentiation(10, 4-i) % 10);
     }
-    int j = 0;
     if ((ArrayForPalindrom[0] == ArrayForPalindrom[4])&(ArrayForPalindrom[1] == ArrayForPalindrom[3]))
         {    
             Console.WriteLine("Число является полиндромом");
